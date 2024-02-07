@@ -1,3 +1,6 @@
+% Code to automate HDR-VDP-3 comparison for all folders containing exported compressed HDR stills and search for equivalent reference image in another folder
+% Storage of results as CSV and Image in the target_folder
+
 source_folder = '/Volumes/T7_Shield/1002_New_Reduced/10_SOURCE_CORRECT_UHD_selection/12.1_TRANSFORMED_HLG_FR_UHD';
 
 target_folder = '/Volumes/T7_Shield/1010_HLG_vs_Org';

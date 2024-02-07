@@ -1,15 +1,7 @@
 function im_lin = pq2lin(im_pq)
-% Transforms a PQ-encoded image into an image with absolute linear colour values (accrding to Rec. 2100).
-%
-% im_lin = pq2lin(im_pq)
-%
-% im_pq - a PQ-encoded image (HxWx3), the values are in the range 0-1
-% im_lim - an image with linear colour values in the range 0.005 to 10000 
+% Function based on given HDR-VDP-3 pq2lin function and validated using ITU-R BT.2100 
+% Old commentary: Transforms a PQ-encoded image into an image with absolute linear colour values (accrding to Rec. 2100).
 
-
-%hdrIn(hdrIn<0) = 0;
-
-% The maximum allowed value for PQ is 10000 for HDR frames
 Lmax = 10000;
 
 n    = 0.15930175781250000;
