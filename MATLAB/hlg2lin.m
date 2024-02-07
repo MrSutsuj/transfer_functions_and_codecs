@@ -1,4 +1,6 @@
 function im_lin = hlg2lin(im_hlg,Lb,Lw)
+% HLG Inverse OETF + OOTF resulting in HLG EOTF with parameters Lb for minimum display luminance and Lb for maximum display luminance
+% Use with RGB images only, since the OOTF uses weighted RGB channels
 
 a = 0.17883277;
 b = 1 - 4 * a;
